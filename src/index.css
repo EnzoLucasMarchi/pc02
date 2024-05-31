@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.page, 
+.page-header, 
+.page-title, 
+.page-subtitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-header{
+margin: 5rem 2rem 0 2rem;
+gap: 3rem
+}
+
+.blanquita{
+  font-weight: normal;
+}
+.page-subtitle{
+  color: gray;
+  line-height: .6;
+}
+
+h1 {
+  line-height: .8;
+}
+
+.cards-container {
+  width: 90%vw;
+  height: 680px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 4rem;
+}
+
+.cards-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
